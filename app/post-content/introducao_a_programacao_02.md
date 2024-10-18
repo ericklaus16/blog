@@ -2,7 +2,7 @@
 draft: true
 title: "Primeiros Comandos e Tipos de Dados #02"
 snippet: "Entenda como a linguagem C funciona e comece a programar (aula 02)"
-publishDate: "2024-10-30 08:00"
+publishDate: "18-10-2024 08:00"
 image: {
   src: "https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg",
   alt: "Logo da linguagem de programação C"

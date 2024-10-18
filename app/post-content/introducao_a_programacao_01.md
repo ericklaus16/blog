@@ -2,7 +2,7 @@
 draft: false
 title: "O que é um algoritmo? #01"
 snippet: "Uma introdução à base da ciência da computação (aula 01)"
-publishDate: "2024-10-14 08:00"
+publishDate: "14-10-2024 08:00"
 image: {
   src: "https://www.inf.unioeste.br/sitecomp/wp-content/uploads/LogoCC.png",
   alt: "Logo do curso de Ciências da Computação da UNIOESTE"
