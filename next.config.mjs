@@ -2,7 +2,11 @@
 const nextConfig = {
     basePath: '/blog',
     output: 'export',
-    reactStrictMode: true
+    images: {
+        loader: 'akamai',
+        path: '',
+    },
+    assetPrefix: './',
 };
 
 export default nextConfig;
