@@ -27,8 +27,8 @@ export default async function Home() {
       <h1 className="text-2xl font-bold mb-4">Posts</h1>
       <div className="space-y-4">
         {postTitles.map(({slug, title}) => (
-          <Link key={slug} href={`/posts/${slug}`}>
-            <p className='text-blue-500 underline mb-4'>{title}</p>
+          <Link key={slug} href={`/posts/${slug}`} target='_blank'>
+            <p className='text-blue-500 underline mb-4 text-center'>{title}</p>
           </Link>
         ))}
       </div>
