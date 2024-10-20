@@ -262,6 +262,76 @@ Seu IMC eh: 41.52
 Obesidade Grau 3 (morbida)
 ```
 
+#### Estrutura Condicional: `switch`
+
+A estrutura `switch` é usada para selecionar um bloco de código para ser executado com base no valor de uma expressão **inteira**. É uma alternativa conveniente ao uso de múltiplos `if-else` quando estamos lidando com uma variável que pode ter diferentes valores discretos.
+
+Sintaxe do `switch`:
+
+```c
+switch (expressão) {
+    case valor1:
+        // Bloco de código executado se expressão == valor1
+        break;
+    case valor2:
+        // Bloco de código executado se expressão == valor2
+        break;
+    ...
+    default:
+        // Bloco de código executado se nenhum case for correspondente
+}
+```
+
+Exemplo:
+```c
+#include <stdio.h>
+
+int main() {
+    int dia;
+
+    printf("Digite um número de 1 a 7 para representar o dia da semana: ");
+    scanf("%d", &dia);
+
+    switch (dia) {
+        case 1:
+            printf("Domingo\n");
+            break;
+        case 2:
+            printf("Segunda-feira\n");
+            break;
+        case 3:
+            printf("Terça-feira\n");
+            break;
+        case 4:
+            printf("Quarta-feira\n");
+            break;
+        case 5:
+            printf("Quinta-feira\n");
+            break;
+        case 6:
+            printf("Sexta-feira\n");
+            break;
+        case 7:
+            printf("Sábado\n");
+            break;
+        default:
+            printf("Número inválido! Por favor, insira um número entre 1 e 7.\n");
+    }
+
+    return 0;
+}
+```
+
+No exemplo acima, o usuário digita um número correspondente ao dia da semana. O `switch` avalia o número e imprime o dia correspondente. Se o número não estiver entre 1 e 7, o bloco default é executado, informando que o número é inválido.
+
+O `break` no fim de cada case é para indicar a saída do bloco switch. Se você esquecer de adicionar um break, o programa continuará a executar os casos subsequentes, mesmo que as condições não sejam verdadeiras. Por exemplo, se dia fosse 3, e você não tivesse um break após case 3, a saída seria:
+```c
+Terça-feira
+Quarta-feira
+```
+
+Isso ocorre porque, sem o `break`, a execução "cai" no próximo case, continuando até encontrar um `break` ou chegar ao final do bloco `switch`.
+
 ### Noção de Blocos e Escopo
 Em C, um **bloco** de código é definido por chaves {}. Quando usamos estruturas condicionais, é importante entender que variáveis declaradas dentro de um bloco só são visíveis dentro desse bloco. Esse conceito é chamado de **escopo**.
 
