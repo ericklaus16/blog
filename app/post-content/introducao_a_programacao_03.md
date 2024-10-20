@@ -116,12 +116,14 @@ A media eh 9.00 --> saída
 
 3. **Cálculo de IMC**: Um programa que recebe a altura e o peso do usuário e calcula o Índice de Massa Corporal (IMC).
 
+Onde `IMC = peso (em kg) / (altura * altura)`
+
 Exemplo de execução:
 
 ```c
 Digite seu peso em kg: 85.5 --> entrada
 Digite sua altura em metros: 1.91 --> entrada
-Seu IMC eh: 23.43 --> saída --> saída
+Seu IMC eh: 23.43 --> saída
 ```
 
 Sinta-se à vontade para mandar os exercícios ou dúvidas no meu e-mail (ericklaus16@gmail.com).
