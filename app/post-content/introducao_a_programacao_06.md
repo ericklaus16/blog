@@ -12,7 +12,7 @@ author: "Eric Santos"
 tags: [exercicios, programacao, C]
 ---
 
-[Clique aqui para ler pelo PDF e melhorar a experiência](../pdfs/introducao_a_programacao_04.pdf)
+[Clique aqui para ler pelo PDF e melhorar a experiência](../pdfs/introducao_a_programacao_06.pdf)
 
 ## <a name=""></a>Exercícios de Repetição e Condicional
 
