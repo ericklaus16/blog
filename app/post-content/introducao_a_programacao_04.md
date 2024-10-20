@@ -14,7 +14,7 @@ tags: [tutorial, programacao, C]
 
 [Clique aqui para ler pelo PDF e melhorar a experiência](../pdfs/introducao_a_programacao_04.pdf)
 
-## <a name=""></a>Semana 4: Estruturas Condicionais (If-Else)
+## <a name=""></a>Estruturas Condicionais (If-Else)
 ![Estruturas Condicionais](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyTkvQKpYb4AWmDYhJDgTqldg9PToYNzXWlSMeEyZBsLSANZNI4v6se5LhdxNBS2CqJe0q0kwTwBSrsSzu2SRPDQr5YN_uV_CmiW00h9QMhKPkDxIE2FgjULMosfku1V4ljz_5dQ59YXW9mGrGG0MgCRLchf59NHp09mgRHFgnSJ2g7V9eainAnvo1MQ/s399/if%20else%20in%20c%20programming.png)
 
 Nesta aula, vamos abordar as **estruturas condicionais** na linguagem C. As estruturas condicionais são usadas para tomar decisões no código, ou seja, fazer com que o programa execute ações diferentes dependendo de certas condições.
