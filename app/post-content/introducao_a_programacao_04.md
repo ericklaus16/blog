@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "Estruturas Condicionais em C #04"
+title: "Estruturas Condicionais #04"
 snippet: "Estruturas condicionais e lógica em C (aula 04)"
 publishDate: "20-10-2024 08:00"
 image: {

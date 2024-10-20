@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "Semana 5: Estruturas de Repetição (Loops)"
+title: "Estruturas de Repetição (Loops) #05"
 snippet: "Aprenda como utilizar laços de repetição como for e while em C."
 publishDate: "25-10-2024 08:00"
 image: {
