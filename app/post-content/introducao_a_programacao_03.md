@@ -1,7 +1,7 @@
 ---
 draft: true
-title: "Primeiros Comandos e Tipos de Dados #03"
-snippet: "Aprofunde-se nas funções de entrada e saída da linguagem C (aula 03)"
+title: "Entrada e Saída #03"
+snippet: "Aprenda as funões de entrada e saída da linguagem C (aula 03)"
 publishDate: "18-10-2024 18:00"
 image: {
   src: "https://www.devmedia.com.br/arquivos/Artigos/40748/leia_escreva.png",
